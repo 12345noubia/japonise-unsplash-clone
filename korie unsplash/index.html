@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kōri Gallery - Japanese Inspired Unsplash Clone</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Kōri Gallery</div>
+        <div class="nav-links">
+            <a href="#" class="category-link" data-category="wallpapers">Wallpapers</a>
+            <a href="#" class="category-link" data-category="anime">Anime</a>
+            <a href="#" class="category-link" data-category="animals">Animals</a>
+            <a href="#" class="category-link" data-category="illustrations">Illustrations</a>
+            <a href="#" id="favorites">Favorites</a>
+            <input type="text" id="search-bar" class="search-bar" placeholder="Search Images...">
+        </div>
+    </header>
+
+    <div class="gallery-container" id="gallery-container"></div>
+
+    <div class="popup" id="popup">
+        <img src="" alt="Popup Image" id="popup-image">
+        <div class="action-buttons">
+            <button id="download-btn">Download</button>
+            <button id="favorite-btn">Add to Favorites</button>
+        </div>
+        <div class="popup-controls">
+            <button id="prev-btn">&lt;</button>
+            <button id="next-btn">&gt;</button>
+        </div>
+    </div>
+
+    <div class="ai-icon" id="ai-icon">🤖</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
