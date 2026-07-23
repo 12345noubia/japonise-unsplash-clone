@@ -1,0 +1,17 @@
+*** Begin Patch
+*** Add File: package.json
++{
++  "name": "korie-unsplash-workspace",
++  "private": true,
++  "version": "0.1.0",
++  "workspaces": [
++    "korie",
++    "unsplash"
++  ],
++  "scripts": {
++    "start": "echo \"Set up app-specific start scripts in ./korie or ./unsplash\"",
++    "dev": "echo \"Set up app-specific dev scripts in ./korie or ./unsplash\"",
++    "build": "echo \"Set up app-specific build scripts in ./korie or ./unsplash\""
++  }
++}
+*** End Patch
