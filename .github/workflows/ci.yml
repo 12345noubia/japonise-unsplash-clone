@@ -1,0 +1,17 @@
+*** Begin Patch
+*** Add File: .github/workflows/ci.yml
++name: ci
++
++on:
++  push:
++  pull_request:
++
++jobs:
++  placeholder:
++    runs-on: ubuntu-latest
++    steps:
++      - name: Check repository layout
++        run: |
++          echo "Expected app directories: korie, unsplash"
++          echo "Add package manifests and real build/test steps before enabling production CI"
+*** End Patch
